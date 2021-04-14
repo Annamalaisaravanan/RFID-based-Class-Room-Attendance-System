@@ -78,6 +78,6 @@ df['Name']=name
 df['Roll_No']=roll
 df['Time']=time
 df['Time_left']=time_left.values()
-df.to_csv(r'C:\Users\Annamalai\Desktop\rfid_tag\attendence'+now.strftime('%d_%m_%Y')+'.csv')
+df.to_csv(r'path\to\the\directory\attendence'+now.strftime('%d_%m_%Y')+'.csv')
 
         
